@@ -19,7 +19,7 @@ public class Main {
             }
         }
 
-        System.out.println("Top 10:");
+        System.out.println("Top 10 :");
 
         List<Map.Entry<String, Integer>> frequencyList = new ArrayList<>(frequencyTable.entrySet());
         frequencyList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
